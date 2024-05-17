@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["standard", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-console": [
+      "error",
+      {
+        "allow": ["warn", "error"]
+      }
+    ],
+    "no-new": "warn",
+    "no-unused-vars": "error",
+    "array-callback-return": 0,
+    "no-eval": 0
+  },
+  "globals": {
+    "_": true
+  }
+}
