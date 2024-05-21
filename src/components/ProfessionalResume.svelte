@@ -39,6 +39,8 @@
     max-width: 500px;
   }
 
+
+
   .resume-header {
     display: flex;
     gap: 8px;
@@ -72,5 +74,30 @@
     gap: 25px;
     align-items: flex-start;
     justify-content: flex-start;
+  }
+
+  @media (max-width: 768px) {
+    .resume {
+      flex-direction: column;
+      height: auto;
+      position: relative;
+	  }
+
+    h1 {
+      font-size: 30px;
+      white-space: nowrap;
+    }
+
+    .say, .desc {
+      font-size: 16px;
+    }
+
+    .resume-links {
+      display: flex;
+      gap: 0;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 100%;
+    }
   }
 </style>

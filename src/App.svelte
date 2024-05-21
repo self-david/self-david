@@ -41,6 +41,14 @@
 		max-width: 1200px;
 		position: sticky;
 		top: 0;
+		background-color: black;
+	}
+
+	@media (max-width: 768px) {
+		main {
+			max-width: none;
+			background-color: red;
+		}
 	}
 
 	footer {
