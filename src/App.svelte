@@ -24,18 +24,6 @@
 		{/each}
 	</div>
 
-	<!-- <footer class="no-print" >
-		<a href="mailto:david_xd1996@live.com.mx" title="Enviar un correo electrónico a {name} al correo david_xd1996@live.com.mx" {...linkProps}>
-			<svelte:component this={IconEmail} />
-		</a>
-		<a href="https://www.linkedin.com/in/self-david/" title="Visitar el perfil de {name} en LinkedIn" {...linkProps}>
-			<svelte:component this={IconLinkedIn} />
-		</a>
-		<a href="https://github.com/self-david" title="Visitar el perfil de {name} en GitHub" {...linkProps}>
-			<svelte:component this={IconGithub} />
-		</a>
-	</footer> -->
-
 	<!-- <span>
 		<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 			<circle cx="12" cy="12" r="10"></circle>

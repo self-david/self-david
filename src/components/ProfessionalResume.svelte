@@ -3,13 +3,15 @@
 	import IconEmail from './icons/Email.svelte'
 	import IconLinkedIn from './icons/LinkedIn.svelte'
 	import IconGithub from './icons/Github.svelte'
+
+  const openLink = url => window.open(url, "_blank")
 </script>
 
 <div class='resume'>
   <div class='resume-header'>
     <img src="./profile.jpg" alt="">
-    <Button size='small'>Disponible</Button>
-    <Button size='small'>Abierto a Freelance</Button>
+    <Button size='small' on:click={() => openLink('https://www.linkedin.com/in/self-david')}>Disponible</Button>
+    <Button size='small' on:click={() => openLink('https://www.linkedin.com/in/self-david')}>Abierto a Freelance</Button>
   </div>
   <div>
     <p class='say'>¡Hola! mi nombre es</p>
@@ -18,9 +20,9 @@
   </div>
 
   <div class='resume-links'>
-    <Button><IconEmail /> Correo</Button>
-    <Button><IconLinkedIn /> LinkedIn</Button>
-    <Button><IconGithub /> Github</Button>
+    <Button on:click={() => openLink('mailto:david_xd1996@live.com.mx')}><IconEmail /> Correo</Button>
+    <Button on:click={() => openLink('https://www.linkedin.com/in/self-david')}><IconLinkedIn /> LinkedIn</Button>
+    <Button on:click={() => openLink('https://github.com/self-david')}><IconGithub /> Github</Button>
   </div>
 </div>
 
