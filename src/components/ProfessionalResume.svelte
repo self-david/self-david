@@ -5,6 +5,8 @@
 	import IconGithub from './icons/Github.svelte'
 
   const openLink = url => window.open(url, "_blank")
+	const name = 'David Gutierrez Alvarez'
+
 </script>
 
 <div class='resume'>
@@ -74,6 +76,14 @@
     gap: 25px;
     align-items: flex-start;
     justify-content: flex-start;
+  }
+
+  @media (max-width: 1200px) {
+    .resume {
+      flex-direction: column;
+      height: auto;
+      position: relative;
+	  }
   }
 
   @media (max-width: 768px) {
