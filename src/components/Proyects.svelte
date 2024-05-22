@@ -27,14 +27,13 @@
   </div>
 
   <div class='card'>
-    <!-- <img src="" alt=""> -->
-    <div class="img"></div>
+    <img src="./liteimage.webp" alt="">
     <div class="card-desc">
       <h3>LiteImage - Reduce el peso de las imágenes</h3>
       <div class="tags">
         <p>React</p>
       </div>
-      <p>Es una plataforma de aprendizaje de programación en español que te lleva de la mano desde principiante y da el primer paso hacia una emocionante carrera.</p>
+      <p>Es una aplicacion web que te ayuda a reducir el peso de tus imágenes. Toltalmente gratuita.</p>
       <div class='card-links'>
         <Button on:click={() => openLink('https://liteimage.pro')}><IconGithub /> Sitio web</Button>
         <!-- <Button on:click={() => openLink('https://github.com/self-david')}><IconEmail /> Github</Button> -->
@@ -86,7 +85,7 @@
     gap: 10px;
   }
 
-  .img {
+  .img, img {
     width: 320px;
     height: 200px;
     background-color: var(--color-weak-accent);
@@ -102,8 +101,11 @@
       gap: 10px;
     }
 
-    .img {
+    .img, img {
       width: 100%;
+    }
+    img {
+      height: auto;
     }
   }
 </style>
