@@ -1,6 +1,7 @@
 <script>
 	import ProfessionalResume from './components/ProfessionalResume.svelte'
 	import Experiences from './components/Experiences.svelte'
+	import Proyects from './components/Proyects.svelte'
 	import Skills from './components/Skills.svelte'
 	import Educations from './components/Educations.svelte'
 	import AboutMe from './components/AboutMe.svelte'
@@ -15,16 +16,10 @@
 
 <main>
 	<Experiences />
+	<Proyects />
 	<Skills />
 	<Educations />
 	<AboutMe />
-	<div>
-		{#each [...Array(50).keys()] as idx}
-			<p>{idx}</p>
-		{/each}
-	</div>
-
-
 </main>
 
 <style>
@@ -34,12 +29,12 @@
 		gap: 30px;
 		width: 100%;
 		max-width: 1200px;
-		padding-top: 100px;
+		padding: 100px 0;
 	}
 
 	@media (max-width: 1200px) {
 		main {
-			padding-top: 30px;
+			padding: 0;
 		}
 	}
 

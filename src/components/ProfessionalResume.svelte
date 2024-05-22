@@ -6,7 +6,6 @@
 
   const openLink = url => window.open(url, "_blank")
 	const name = 'David Gutierrez Alvarez'
-
 </script>
 
 <div class='resume'>
