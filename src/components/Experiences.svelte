@@ -23,7 +23,7 @@
     <li>
       <div>
         <h4>Geeo - Fullstack</h4>
-        <p>February 2019 - August 2019</p>
+        <p>Febrero 2019 - Agosto 2019</p>
       </div>
       <span>
         python y PyQt ...

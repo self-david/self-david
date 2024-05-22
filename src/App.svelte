@@ -1,6 +1,9 @@
 <script>
 	import ProfessionalResume from './components/ProfessionalResume.svelte'
-	import Experiences from './components/Experiences.svelte';
+	import Experiences from './components/Experiences.svelte'
+	import Skills from './components/Skills.svelte'
+	import Educations from './components/Educations.svelte'
+	import AboutMe from './components/AboutMe.svelte'
 
 	window.geofeed = options => window.geolocation = options
 	var json = document.createElement('script')
@@ -8,11 +11,15 @@
 	document.head.appendChild(json)
 </script>
 
-<svelte:component this={ProfessionalResume} />
+<ProfessionalResume />
+
 <main>
 	<Experiences />
+	<Skills />
+	<Educations />
+	<AboutMe />
 	<div>
-		{#each [...Array(130).keys()] as idx}
+		{#each [...Array(50).keys()] as idx}
 			<p>{idx}</p>
 		{/each}
 	</div>
@@ -24,6 +31,7 @@
 	main {
 		display: flex;
 		flex-direction: column;
+		gap: 30px;
 		width: 100%;
 		max-width: 1200px;
 		padding-top: 100px;
