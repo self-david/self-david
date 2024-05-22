@@ -33,7 +33,11 @@
 </div>
 
 <style>
-  .experiences {}
+  .experiences {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 
   ol {
     display: flex;
@@ -52,7 +56,7 @@
   li::before {
     border-left: 2px solid var(--color-weak-accent);
     content: '';
-    left: -25px;
+    left: -20px;
     top: -10px;
     position: absolute;
     height: 100%;
@@ -63,7 +67,7 @@
     color: var(--color-accent);
     font-size: 56px;
     position: absolute;
-    left: -35px;
+    left: -30px;
     top: -20px;
   }
 
@@ -87,4 +91,28 @@
     font-size: 16px;
     width: 350px;
   }
+
+  @media (max-width: 768px) {
+    li {
+      flex-direction: column;
+    }
+
+    li::before {
+    border-left: 2px solid var(--color-weak-accent);
+    content: '';
+    left: -12px;
+    top: -10px;
+    position: absolute;
+    height: 100%;
+  }
+
+  li::after {
+    content: '•';
+    color: var(--color-accent);
+    font-size: 42px;
+    position: absolute;
+    left: -20px;
+    top: -10px;
+  }
+	}
 </style>

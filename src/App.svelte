@@ -29,9 +29,15 @@
 		padding-top: 100px;
 	}
 
+	@media (max-width: 1200px) {
+		main {
+			padding-top: 30px;
+		}
+	}
+
 	@media (max-width: 768px) {
 		main {
-			background-color: red;
+			/* background-color: red; */
 		}
 	}
 </style>
