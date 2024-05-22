@@ -8,6 +8,7 @@
 
 :root {
 	--color-accent: #5EC1D7;
+	--color-weak-accent: #5C929E;
 	--color-dark: #131A2C;
 	--color-gray: #25355E;
 }
@@ -27,4 +28,18 @@ body {
 	gap:20px;
 	justify-content: center;
 	padding: 0 calc((100vw - 1200px) / 2 - 8.5px);
+}
+
+@media (max-width: 1200px) {
+	body {
+		flex-direction: column;
+		padding: 100px calc((100vw - 600px) / 2 - 8.5px);
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		flex-direction: column;
+		padding: 100px 20px;
+	}
 }
