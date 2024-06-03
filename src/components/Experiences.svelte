@@ -26,7 +26,7 @@
         <p>Febrero 2019 - Agosto 2019</p>
       </div>
       <span>
-        python y PyQt ...
+        Desarrollé un sistema de registro de materiales para la empresa utilizando Supabase para la base de datos, Python para el backend y PySide para la interfaz gráfica.
       </span>
     </li>
   </ol>

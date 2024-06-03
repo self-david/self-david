@@ -33,7 +33,7 @@
       <div class="tags">
         <p>React</p>
       </div>
-      <p>Es una aplicacion web que te ayuda a reducir el peso de tus imágenes. Toltalmente gratuita.</p>
+      <p>Una aplicacion web que te ayuda a reducir el peso de tus imágenes de forma toltalmente gratuita.</p>
       <div class='card-links'>
         <Button on:click={() => openLink('https://liteimage.pro')}><IconGithub /> Sitio web</Button>
         <!-- <Button on:click={() => openLink('https://github.com/self-david')}><IconEmail /> Github</Button> -->
