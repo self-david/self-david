@@ -1,6 +1,5 @@
 <script>
   import Button from "./Button.svelte"
-	import IconEmail from './icons/Email.svelte'
 	import IconGithub from './icons/Github.svelte'
 
   const openLink = url => window.open(url, "_blank")
@@ -20,7 +19,7 @@
       </div>
       <p>Es una plataforma de aprendizaje de programación en español que te lleva de la mano desde principiante y da el primer paso hacia una emocionante carrera.</p>
       <div class='card-links'>
-        <Button on:click={() => openLink('https://dummycode.qahub.dev/')}><IconGithub /> Sitio web</Button>
+        <Button on:click={() => openLink('https://dummycode.qahub.dev/')}><IconGithub />Sitio web</Button>
         <!-- <Button on:click={() => openLink('https://github.com/self-david')}><IconEmail /> Github</Button> -->
       </div>
     </div>
@@ -35,8 +34,21 @@
       </div>
       <p>Una aplicacion web que te ayuda a reducir el peso de tus imágenes de forma toltalmente gratuita.</p>
       <div class='card-links'>
-        <Button on:click={() => openLink('https://liteimage.pro')}><IconGithub /> Sitio web</Button>
-        <!-- <Button on:click={() => openLink('https://github.com/self-david')}><IconEmail /> Github</Button> -->
+        <Button on:click={() => openLink('https://liteimage.pro')}><IconGithub />Sitio web</Button>
+      </div>
+    </div>
+  </div>
+
+  <div class='card'>
+    <img src="./portfolio.webp" alt="">
+    <div class="card-desc">
+      <h3>Portfolio - David Gutiérrez Alvarez</h3>
+      <div class="tags">
+        <p>Svelte</p>
+      </div>
+      <p>Para explorar el código de este proyecto, te invito a visitar mi repositorio en GitHub.</p>
+      <div class='card-links'>
+        <Button on:click={() => openLink('https://github.com/self-david/self-david')}><IconGithub />Repositorio</Button>
       </div>
     </div>
   </div>
