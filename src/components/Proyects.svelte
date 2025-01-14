@@ -9,17 +9,16 @@
   <h2>Proyectos destacados</h2>
 
   <div class='card'>
-    <!-- <img src="" alt=""> -->
-    <div class="img"></div>
+    <img src="./codax.webp" alt="">
     <div class="card-desc">
       <h3>Codax - Lenguanje de programación</h3>
       <div class="tags">
         <p>React</p>
         <p>Electron</p>
       </div>
-      <p>Es una plataforma de aprendizaje de programación en español que te lleva de la mano desde principiante y da el primer paso hacia una emocionante carrera.</p>
+      <p>Una plataforma de aprendizaje de programación en español que te lleva de la mano desde principiante.</p>
       <div class='card-links'>
-        <Button on:click={() => openLink('https://dummycode.qahub.dev/')}><IconGithub />Sitio web</Button>
+        <Button on:click={() => openLink('https://codax.davidga.dev/')}><IconGithub />Sitio web</Button>
         <!-- <Button on:click={() => openLink('https://github.com/self-david')}><IconEmail /> Github</Button> -->
       </div>
     </div>

@@ -5,7 +5,7 @@
     <li>
       <div>
         <h4>Buscabot - FrontEnd developer</h4>
-        <p>Marzo 2022 - Actualmente</p>
+        <p>Marzo 2022 - Junio 2024</p>
       </div>
       <span>
         Mi enfoque principal es el desarrollo front-end del sitio web, transformando todo el diseño UI/UX en código y creando la interfaz de usuario, trabajando con el modelo first-mobile.
