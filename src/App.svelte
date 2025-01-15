@@ -4,7 +4,6 @@
 	import Proyects from './components/Proyects.svelte'
 	import Skills from './components/Skills.svelte'
 	import Educations from './components/Educations.svelte'
-	import AboutMe from './components/AboutMe.svelte'
 
 	window.geofeed = options => window.geolocation = options
 	var json = document.createElement('script')
@@ -19,7 +18,6 @@
 	<Proyects />
 	<Skills />
 	<Educations />
-	<AboutMe />
 </main>
 
 <style>
