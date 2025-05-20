@@ -1,4 +1,4 @@
-<div class="experiences">
+<div class='experiences'>
   <h2>Educación y certificados</h2>
 
   ...
