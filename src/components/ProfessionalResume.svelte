@@ -1,4 +1,5 @@
 <script>
+  import { fade } from 'svelte/transition'
 	const name = 'David Gutiérrez Alvarez'
 	export let isSpanish
 	export let language
