@@ -10,11 +10,11 @@
     },
     {
       category: isSpanish ? 'Frameworks & Librerías' : 'Frameworks & Libraries',
-      items: ['Svelte', 'React', 'Vue.js', 'Node.js', 'Express']
+      items: ['Svelte', 'React', 'Next js', 'Node.js', 'Express']
     },
     {
       category: isSpanish ? 'Herramientas & Otros' : 'Tools & Others',
-      items: ['Git', 'Figma', 'Responsive Design', 'UI/UX Design', 'RESTful APIs']
+      items: ['Git', 'Github', 'Figma', 'Responsive Design', 'UI/UX Design', 'RESTful APIs']
     }
   ];
 </script>

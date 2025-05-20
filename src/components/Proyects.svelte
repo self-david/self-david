@@ -32,7 +32,21 @@
       features: isSpanish 
         ? ['Compresión sin pérdida', 'Soporte para múltiples formatos', 'Procesamiento en el navegador', 'Sin límites de uso']
         : ['Lossless compression', 'Support for multiple formats', 'Browser-based processing', 'No usage limits']
-    }
+    },
+		{
+			'id': 'portfolio',
+			'title': 'Portfolio',
+			'subtitle': isSpanish ? 'Sitio web profesional' : 'Professional website',
+			'tech': ['Svelte', 'CSS', 'JavaScript', 'Responsive Design'],
+			'description': isSpanish 
+				? 'Mi sitio web personal donde muestro mis proyectos y habilidades como desarrollador front-end.'
+				: 'My personal website where I showcase my projects and skills as a front-end developer.',
+			'image': './portfolio.webp',
+			'link': 'https://davidga.dev',
+			'features': isSpanish 
+				? ['Diseño responsive', 'Modo oscuro/claro', 'Multilenguaje', 'Animaciones suaves']
+				: ['Responsive design', 'Dark/light mode', 'Multilanguage', 'Smooth animations']
+		}
   ];
 </script>
 

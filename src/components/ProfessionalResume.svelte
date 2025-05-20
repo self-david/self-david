@@ -58,9 +58,9 @@
 				</h1>
 				<h2>
 					{#if isSpanish}
-						Desarrollador front-end con <span class='highlight'>3 años de experiencia</span>
+						Desarrollador front-end con <span class='highlight'>4 años de experiencia</span>
 					{:else}
-						Front-end developer with <span class='highlight'>3 years of experience</span>
+						Front-end developer with <span class='highlight'>4 years of experience</span>
 					{/if}
 				</h2>
 				<p>
