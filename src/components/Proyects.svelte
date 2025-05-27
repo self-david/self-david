@@ -46,7 +46,35 @@
 			'features': isSpanish 
 				? ['Diseño responsive', 'Modo oscuro/claro', 'Multilenguaje', 'Animaciones suaves']
 				: ['Responsive design', 'Dark/light mode', 'Multilanguage', 'Smooth animations']
-		}
+		},
+		{
+			id: 'sin-filtros',
+			title: 'Sin Filtros',
+			subtitle: isSpanish ? 'Juego de fiesta móvil' : 'Mobile party game',
+			tech: ['React Native', 'Expo', 'AsyncStorage', 'React Navigation'],
+			description: isSpanish 
+				? 'Un juego de fiesta móvil con múltiples niveles de intensidad, cartas personalizadas y modo multijugador para romper el hielo en cualquier reunión.'
+				: 'A mobile party game with multiple intensity levels, custom cards, and multiplayer mode to break the ice at any gathering.',
+			image: './sin-filtros.webp',
+			link: 'https://github.com/self-david/self-david/releases/download/untagged-6d11c1ab27f4bcae6356/Sin-Filtros-v1.0.0-release.apk', // Reemplaza con tu enlace real
+			features: isSpanish 
+				? [
+						'Cuatro niveles de intensidad progresiva',
+						'Sistema de cartas personalizadas por categorías',
+						// 'Modo multijugador con salas P2P',
+						'Historial de partidas con estadísticas detalladas',
+						'Sistema de puntuación con deshacer acciones',
+						'Interfaz moderna con gradientes y animaciones'
+					]
+				: [
+						'Four progressive intensity levels',
+						'Custom card system with categories',
+						// 'Multiplayer mode with P2P rooms',
+						'Game history with detailed statistics',
+						'Scoring system with undo actions',
+						'Modern interface with gradients and animations'
+					]
+		},
   ];
 </script>
 
